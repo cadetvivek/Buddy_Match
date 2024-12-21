@@ -1,0 +1,159 @@
+/* Footer Styles */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    flex-wrap: wrap;
+  }
+  
+  .Left, .right {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  /* Logo Section */
+  #logo img {
+    max-width: 150px;
+    border-radius: 10px;
+  }
+  
+  #content {
+    margin-top: 10px;
+  }
+  
+  #content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #CCCCCC; /* Light gray for text */
+  }
+  
+  /* Social Icons */
+  #social {
+    margin-top: 20px;
+  }
+  
+  .iconStyle {
+    color: #FFFFFF; /* White icons */
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .iconStyle:hover {
+    color: #FFA500; /* Orange on hover */
+  }
+  
+  /* Right Section Styling */
+  .div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #links {
+    margin: 10px;
+  }
+  
+  .head1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #D90A14; /* Red for section headings */
+  }
+  
+  .link-item {
+    display: block;
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #FFFFFF; /* White links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link-item:hover {
+    color: #FFA500; /* Orange on hover */
+  }
+  
+  /* Contact Section */
+  #contact {
+    margin-top: 20px;
+  }
+  
+  #head2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #FFA500; /* Orange for heading */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #CCCCCC; /* Light gray for text */
+  }
+  
+  .contactStyle {
+    margin-right: 10px;
+    color: #D90A14; /* Red icons */
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Left, .right {
+      flex: none;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #links {
+      text-align: center;
+    }
+  
+    #contact {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #logo img {
+      max-width: 120px;
+    }
+  
+    .iconStyle {
+      font-size: 20px;
+    }
+  
+    .head1 {
+      font-size: 1rem;
+    }
+  
+    .link-item {
+      font-size: 0.8rem;
+    }
+  
+    #head2 {
+      font-size: 1.2rem;
+    }
+  
+    .contactStyle {
+      font-size: 1rem;
+    }
+  
+    .contact-item span {
+      font-size: 0.8rem;
+    }
+  }
+  
