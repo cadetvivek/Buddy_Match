@@ -76,39 +76,6 @@
   opacity: 0.7;
 }
 
-.button-group {
-  display: flex;
-  gap: 1rem;
-}
-
-.btn {
-  padding: 0.75rem 2rem;
-  border-radius: 5px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.primary {
-  background: #ff9500;
-  border: none;
-  color: white;
-}
-
-.primary:hover {
-  background: #ff8000;
-}
-
-.secondary {
-  background: transparent;
-  border: 1px solid white;
-  color: white;
-}
-
-.secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 .right-section {
   flex: 1;
   position: relative;
@@ -123,12 +90,14 @@
   width: 100%;
   height: auto;
   border-radius: 15px;
+  margin-top: 60px;
+  
 }
 
 .stats-overlay {
   position: absolute;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1rem;
 }
 

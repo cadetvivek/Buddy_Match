@@ -37,21 +37,7 @@ const FitnessLanding = () => {
                 </div>
               ))}
             </div>
-
-            <div className="button-group">
-              <button className="btn primary">Get Started</button>
-              <button className="btn secondary">Learn More</button>
-            </div>
-          </div>
-
-          <div className="right-section">
-            <div className="image-container">
-              <img 
-                src="https://www.completesports.com/wp-content/uploads/2020/06/400a5678-485d-11ea-9a9d-aed7af30eb98.jpg" 
-                alt="Fitness person tying shoelace" 
-                className="main-image" 
-              />
-              <div className="stats-overlay">
+            <div className="stats-overlay">
                 <div className="heart-rate">
                   <span className="heart-icon">❤️</span>
                   <span>Heart Rate</span>
@@ -68,6 +54,16 @@ const FitnessLanding = () => {
                   <span className="kcal">220 kcal</span>
                 </div>
               </div>
+          </div>
+
+          <div className="right-section">
+            <div className="image-container">
+              <img 
+                src="https://www.completesports.com/wp-content/uploads/2020/06/400a5678-485d-11ea-9a9d-aed7af30eb98.jpg" 
+                alt="Fitness person tying shoelace" 
+                className="main-image" 
+              />
+              
             </div>
           </div>
         </div>

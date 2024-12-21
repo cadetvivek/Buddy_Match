@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="container">
       <div className="Left">
         <div id="logo">
-          <img id="img" src={logoimg} alt="" />
+          <img id="img" src="https://image.lexica.art/full_webp/494e1135-3c15-4538-bd08-05eb8b1b7641" alt="" />
         </div>
         <div id="content">
           {" "}
