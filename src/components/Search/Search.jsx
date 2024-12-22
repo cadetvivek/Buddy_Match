@@ -47,12 +47,13 @@ const Search = () => {
             onClick={() => handleCategoryClick(category.name)}
           >
             <div className="category-icon">
-              <span className="gym-icon">GYM</span>
+              <span className="gym-icon"></span>
               <span className="grid-icon">
                 <div></div>
                 <div></div>
                 <div></div>
                 <div></div>
+               
               </span>
             </div>
             <h3>{category.name}</h3>

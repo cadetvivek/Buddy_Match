@@ -110,7 +110,8 @@ const PricingPlans = () => {
 
               <button
                 className={`choose-plan-button ${plan.featured ? 'featured' : ''}`}
-              >
+                onClick={()=> window.open('https://postimg.cc/vgqnL85R')}
+               > 
                 Choose This Plan
               </button>
             </div>
