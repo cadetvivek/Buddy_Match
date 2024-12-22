@@ -23,7 +23,8 @@ const Faq = () => {
     {
       question: "What Kind Of Support Can I Expect From My Trainer?",
       answer: "Our trainers provide regular check-ins, form corrections, workout adjustments, and motivational support throughout your fitness journey."
-    }
+    },
+    
   ];
 
   const toggleAccordion = (index) => {
@@ -33,12 +34,12 @@ const Faq = () => {
   return (
     <div style={{
       backgroundColor: '#1a1a1a',
-      minHeight: '100vh',
+      minHeight: '50vh',
       padding: '2rem',
       fontFamily: 'Arial, sans-serif'
     }}>
       <div style={{
-        maxWidth: '768px',
+        maxWidth: '750px',
         margin: '0 auto'
       }}>
         <h1 style={{

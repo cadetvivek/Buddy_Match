@@ -45,7 +45,8 @@ const PricingPlans = () => {
         'Supportive Online Community',
         'Personalized Workout Plans',
         'Basic Nutrition Guidance',
-        'Access To Group Fitness Classes'
+        'Access To Group Fitness Classes',
+        'Expore Black Hole Challenges'
       ],
       price: 49,
       color: 'orange'
@@ -63,20 +64,6 @@ const PricingPlans = () => {
           Select The Plan That Suits Your Fitness Goals And Let Our Expert Coaches Guide You Every Step Of The Way.
         </p>
 
-        <div className="billing-toggle">
-          <button
-            className={`toggle-button ${billingType === 'monthly' ? 'active' : ''}`}
-            onClick={() => setBillingType('monthly')}
-          >
-            Monthly
-          </button>
-          <button
-            className={`toggle-button ${billingType === 'annually' ? 'active' : ''}`}
-            onClick={() => setBillingType('annually')}
-          >
-            Annually
-          </button>
-        </div>
 
         <div className="plans-grid">
           {plans.map((plan) => (
