@@ -6,7 +6,7 @@ import Search from "./components/Search/Search";
 import Buddy from "./components/Buddy/Buddy";
 import Feedback from "./components/Feedback/Feedback";
 import Map from "./components/Map/Map";
-
+import BmiCalculator from "./components/BmiCalculator/BmiCalculator";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
         <Feedback />
         <Faq />
         <Map/>
+        <BmiCalculator/>
       </div>
     </>
   );

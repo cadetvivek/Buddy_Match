@@ -44,6 +44,8 @@
     align-items: center;
     text-align: center;
     transition: transform 0.3s ease;
+    box-shadow: 0 0 10px  white;
+
   }
   
   .exercise-card:hover {
