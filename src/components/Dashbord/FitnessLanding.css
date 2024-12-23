@@ -1,7 +1,7 @@
 /* FitnessLanding.css */
 .fitness-container {
   background: linear-gradient(to right, #1f1f1f 65%, #f4631a 35%);
-  min-height: 100vh;
+  min-height: 60vh;
   color: white;
   padding: 2rem;
 }

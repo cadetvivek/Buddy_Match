@@ -18,8 +18,8 @@ body{
     box-sizing: border-box; /* Includes padding in width calculations */
     display: flex;
     flex-direction: column;
-    margin-top: 0;
-    margin-bottom: 10rem;
+    margin-top: 0px;
+    margin-bottom: 1rem;
     align-items: center; /* Centers content horizontally */
     background-color:bisque;
     

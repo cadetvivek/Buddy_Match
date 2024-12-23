@@ -7,7 +7,7 @@ const Feedback = () => {
   const feedbacks = [
     {
       id: 1,
-      name: "Druv",
+      name: "Dhruv",
       role: "Fitness Trainer",
       content:
         "This article from the Heart Foundation discusses the importance of physical activity for health and well-being, including",

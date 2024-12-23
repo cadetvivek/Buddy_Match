@@ -7,6 +7,7 @@ import Buddy from "./components/Buddy/Buddy";
 import Feedback from "./components/Feedback/Feedback";
 import Map from "./components/Map/Map";
 import BmiCalculator from "./components/BmiCalculator/BmiCalculator";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Faq />
         <Map/>
         <BmiCalculator/>
+        <Footer/>
       </div>
     </>
   );

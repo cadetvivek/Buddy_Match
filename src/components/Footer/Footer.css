@@ -1,0 +1,142 @@
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 4rem 2rem;
+    font-family: Arial, sans-serif;
+  }
+  img{
+    border-radius: 10rem;
+    height: 100px;
+    width: 100px;
+  }
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-brand {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-brand h3 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #ff0000;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    max-width: 600px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10rem;
+    margin-top: 5rem;
+    margin-left: 3rem;
+   
+
+  }
+  
+  .social-icon {
+    color: #ffffff;
+    font-size: 1.2rem;
+    width: 50px;
+    height: 50px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: white;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  .footer-section h4 {
+    color: #ff0000;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer-section ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .contact-info ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #cccccc;
+  }
+  
+  .contact-info ul li i {
+    color: #ff0000;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .footer-links {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 3rem 1.5rem;
+    }
+  
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-links {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  
+    .contact-info ul li {
+      justify-content: center;
+    }
+  }
